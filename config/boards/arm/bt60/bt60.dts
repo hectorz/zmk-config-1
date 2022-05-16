@@ -76,7 +76,7 @@ left_encoder: encoder_left {
         label = "LEFT_ENCODER";
         a-gpios = <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio1 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
+        resolution = <2>;
         status = "okay";
     };
 
